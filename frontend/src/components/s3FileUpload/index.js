@@ -53,6 +53,7 @@ export default function S3Upload() {
 
   return (
     <div style={{ display: "grid", gap: 12, maxWidth: 420 }}>
+      <h3>Client-Side File Uploads with Amazon S3</h3>
       <input type="file" onChange={handleSelect} />
       <button onClick={upload} disabled={!file}>Upload</button>
       <div>{status}</div>

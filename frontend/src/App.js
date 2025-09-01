@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import S3Upload from './components/FileUpload';
+import MulterUpload from './components/multerFileUpload';
+import S3Upload from './components/s3FileUpload';
 
 function App() {
   return (
     <div className="App">
       <S3Upload/>
+      <MulterUpload/>
     </div>
   );
 }
